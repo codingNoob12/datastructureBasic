@@ -3,7 +3,7 @@
 int main(void) {
     char str[] = "Data Structure!";
 
-    printf("%s\n", str);
+    printf("문자 배열 str[] : %s\n", str);
 
     return 0;
 }
