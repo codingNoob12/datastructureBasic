@@ -1,6 +1,5 @@
 #include <stdio.h>
 #define MAX_DEGREE 50
-#define MAX(a, b) ((a > b) ? a : b)
 
 typedef struct polynominal
 {
@@ -25,22 +24,17 @@ int main()
 
 polynominal addPoly(polynominal A, polynominal B) {
     polynominal C;
-    int a_idx = 0, b_idx = 0, c_idx = 0;
-    int a_deg = A.degree, b_deg = B.degree;
-    C.degree = MAX(A.degree, B.degree);
+    polynominal L = A.degree > B.degree ? A : B;
+    polynominal S = A.degree > B.degree ? B : A;
 
-    while (a_idx <= A.degree && b_idx <= B.degree) {
-        if (a_deg > b_deg) {
-            C.coefs[c_idx++] = A.coefs[a_idx++];
-            a_deg--;
+    C.degree = L.degree;
+    int offset = L.degree - S.degree;
+    for (int i = L.degree; i >= 0; i--) {
+        if (i < offset) {
+            C.coefs[i] = L.coefs[i];
+            continue;
         }
-        else if (a_deg < b_deg) {
-            C.coefs[c_idx++] = B.coefs[b_idx++];
-            b_deg--;
-        }
-        else {
-            C.coefs[c_idx++] = A.coefs[a_idx++] + B.coefs[b_idx++];
-        }
+        C.coefs[i] = L.coefs[i] + S.coefs[i - offset];
     }
 
     return C;
