@@ -44,7 +44,7 @@ void insertLastNode(linkedList_h* L, char*x) {
     listNode* newNode = (listNode*)malloc(sizeof(listNode));
     strcpy(newNode->data, x);
     newNode->link = NULL;
-    if (L->head == NULL) {
+    if (!L->head) {
         L->head = newNode;
         return;
     }
@@ -90,24 +90,20 @@ listNode* searchNode(linkedList_h* L, char* x) {
 }
 
 void deleteNode(linkedList_h* L, listNode* p) {
-    listNode* pre;
     if (!L->head) {
-        return;
-    }
-    if (!L->head->link) {
-        free(L->head);
-        L->head = NULL;
         return;
     }
     if (!p) {
         return;
     }
-    pre = L->head;
-    if (pre == p) {
+    listNode* pre = L->head;
+    if (pre == p) { //기존 코드에서는 head만 있으면 그냥 삭제했는데, 이럴 경우 p가 리스트에 없더라도 삭제
+    // 그래서, head만 있더라도 head와 p가 동일한지 확인해야하는데, 이 코드와 중복된다 판단되어 원본 코드에서 삭제
         L->head = p->link;
     }
     else {
-        while (pre->link != p) {
+        // 단순 연결 리스트에서는 삭제하기 전 노드를 찾아야함
+        while (pre && pre->link != p) { //p가 리스트에 없는 경우 pre가 NULL이 되며 에러가 날 수 있다.
             pre = pre->link;
         }
         pre->link = p->link;

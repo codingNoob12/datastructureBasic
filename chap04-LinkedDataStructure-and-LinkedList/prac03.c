@@ -56,6 +56,15 @@ void deleteNode(linkedList_h* DL, listNode* old) {
     if (!old) {
         return;
     }
+    // old가 DL에 있는지 확인
+    listNode* p = DL->head;
+    while (p && p != old) {
+        p = p->rlink;
+    }
+    if (!p) {
+        return;
+    }
+    // old가 DL에 있으니 삭제
     old->llink->rlink = old->rlink;
     old->rlink->llink = old->llink;
     free(old);
