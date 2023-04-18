@@ -1,0 +1,186 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "work",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "prac-01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac-01-Debug-5c94b3d61e5f2f5b079e.json",
+					"name" : "prac-01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac-02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac-02-Debug-33f8a6dbf616eec46bdd.json",
+					"name" : "prac-02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac-03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac-03-Debug-7df4578e9e78abee1944.json",
+					"name" : "prac-03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac-04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac-04-Debug-0bb7a6198d731e272c6e.json",
+					"name" : "prac-04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac-05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac-05-Debug-2773e2bc9d18ca83a0cf.json",
+					"name" : "prac-05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac-06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac-06-Debug-cce619b993af0b1b2cc9.json",
+					"name" : "prac-06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac-07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac-07-Debug-4e24a50815ef853ee2d5.json",
+					"name" : "prac-07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac-08::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac-08-Debug-5266006641d3c6443bb4.json",
+					"name" : "prac-08",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac01-Debug-2b6df4b818a7a4c75795.json",
+					"name" : "prac01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac02-Debug-2316a633e2fd473c4b47.json",
+					"name" : "prac02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac03-Debug-b7ad9663555b873189f4.json",
+					"name" : "prac03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac04-Debug-a6917801d53026419de0.json",
+					"name" : "prac04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "prac05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-prac05-Debug-ca4b83595dd2a0dbe590.json",
+					"name" : "prac05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-a88b8196f79c8235ceee.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "work::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-work-Debug-28fddf18d7eea8f6476f.json",
+					"name" : "work",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/seoilhyeon/Documents/\uac00\ud1a8\ub9ad\ub300/\uc790\ub8cc\uad6c\uc870\uae30\ucd08/work/cmake-build-debug",
+		"source" : "/Users/seoilhyeon/Documents/\uac00\ud1a8\ub9ad\ub300/\uc790\ub8cc\uad6c\uc870\uae30\ucd08/work"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
