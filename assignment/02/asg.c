@@ -128,7 +128,11 @@ int main(void) {
                 printf("%d\n", length(LQ));
                 break;
             case 4: // 문자 출력
-                printf("첫 번째 문자: %c 마지막 문자: %c\n", LQ->front->data, LQ->rear->data);
+                if (isEmpty(LQ)) {
+                    printf("존재하는 문자가 없습니다.\n");
+                } else {
+                    printf("첫 번째 문자: %c 마지막 문자: %c\n", LQ->front->data, LQ->rear->data);
+                }
                 break;
         }
         if (i != 9)
