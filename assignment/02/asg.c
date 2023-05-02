@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 typedef struct Node {
     char data;
@@ -90,7 +91,7 @@ int input(const char *msg, int min, int max) {
         printf("%s", msg);
         scanf("%d%*c", &data);
         if (data < min || data > max) {
-            printf("잘못된 입력. 다시 입력하세요.\n\n");
+            printf("범위 초과. 다시 입력하세요.\n\n");
             continue;
         }
         break;
@@ -106,8 +107,14 @@ int main(void) {
         char ch;
         switch (opt) {
             case 1: // 문자 추가
-                printf("추가할 문자를 입력하세요: ");
-                scanf("%c%*c", &ch);
+                while (1) {
+                    printf("추가할 문자를 입력하세요: ");
+                    scanf("%c%*c", &ch);
+                    if (islower(ch)) {
+                        break;
+                    }
+                    printf("영소문자가 아닙니다. 다시 입력하세요.\n");
+                }
                 enQueue(LQ, ch);
                 break;
             case 2: // 문자 제거
