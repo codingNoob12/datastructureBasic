@@ -13,5 +13,6 @@
 /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/cmake-build-debug/CMakeFiles/prac03.dir
 /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/cmake-build-debug/CMakeFiles/prac04.dir
 /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/cmake-build-debug/CMakeFiles/prac05.dir
+/Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/cmake-build-debug/CMakeFiles/asg.dir
 /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/cmake-build-debug/CMakeFiles/rebuild_cache.dir

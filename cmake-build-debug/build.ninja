@@ -514,6 +514,37 @@ build prac05: C_EXECUTABLE_LINKER__prac05_Debug CMakeFiles/prac05.dir/chap05-Sta
   TARGET_FILE = prac05
   TARGET_PDB = prac05.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target asg
+
+
+#############################################
+# Order-only phony target for asg
+
+build cmake_object_order_depends_target_asg: phony || CMakeFiles/asg.dir
+
+build CMakeFiles/asg.dir/assignment/02/asg.c.o: C_COMPILER__asg_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/assignment/02/asg.c || cmake_object_order_depends_target_asg
+  DEP_FILE = CMakeFiles/asg.dir/assignment/02/asg.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -std=gnu99
+  OBJECT_DIR = CMakeFiles/asg.dir
+  OBJECT_FILE_DIR = CMakeFiles/asg.dir/assignment/02
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target asg
+
+
+#############################################
+# Link the executable asg
+
+build asg: C_EXECUTABLE_LINKER__asg_Debug CMakeFiles/asg.dir/assignment/02/asg.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
+  OBJECT_DIR = CMakeFiles/asg.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = asg
+  TARGET_PDB = asg.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -548,7 +579,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/cmake-build-debug
 
-build all: phony work test prac01 prac-01 prac-02 prac-03 prac-04 prac-05 prac-06 prac-07 prac-08 prac02 prac03 prac04 prac05
+build all: phony work test prac01 prac-01 prac-02 prac-03 prac-04 prac-05 prac-06 prac-07 prac-08 prac02 prac03 prac04 prac05 asg
 
 # =============================================================================
 # Built-in targets

@@ -21,3 +21,4 @@ add_executable(prac03 chap05-Stack/prac03.c)
 
 add_executable(prac04 chap05-Stack/prac04.c)
 add_executable(prac05 chap05-Stack/prac05.c)
+add_executable(asg assignment/02/asg.c)

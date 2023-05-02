@@ -29,7 +29,8 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
@@ -58,12 +59,20 @@
 						11,
 						12,
 						13,
-						14
+						14,
+						15
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "asg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-asg-Debug-b08e4f1f1ee681b67b51.json",
+					"name" : "asg",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "prac-01::@6890427a1f51a3e7e1df",
