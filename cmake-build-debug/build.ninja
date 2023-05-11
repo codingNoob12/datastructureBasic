@@ -108,11 +108,11 @@ build test: C_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/test/test.c.o
 
 build cmake_object_order_depends_target_prac01: phony || CMakeFiles/prac01.dir
 
-build CMakeFiles/prac01.dir/chap05-Stack/prac01.c.o: C_COMPILER__prac01_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap05-Stack/prac01.c || cmake_object_order_depends_target_prac01
-  DEP_FILE = CMakeFiles/prac01.dir/chap05-Stack/prac01.c.o.d
+build CMakeFiles/prac01.dir/chap06-Queue-and-Deque/prac01.c.o: C_COMPILER__prac01_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap06-Queue-and-Deque/prac01.c || cmake_object_order_depends_target_prac01
+  DEP_FILE = CMakeFiles/prac01.dir/chap06-Queue-and-Deque/prac01.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/prac01.dir
-  OBJECT_FILE_DIR = CMakeFiles/prac01.dir/chap05-Stack
+  OBJECT_FILE_DIR = CMakeFiles/prac01.dir/chap06-Queue-and-Deque
 
 
 # =============================================================================
@@ -122,7 +122,7 @@ build CMakeFiles/prac01.dir/chap05-Stack/prac01.c.o: C_COMPILER__prac01_Debug /U
 #############################################
 # Link the executable prac01
 
-build prac01: C_EXECUTABLE_LINKER__prac01_Debug CMakeFiles/prac01.dir/chap05-Stack/prac01.c.o
+build prac01: C_EXECUTABLE_LINKER__prac01_Debug CMakeFiles/prac01.dir/chap06-Queue-and-Deque/prac01.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/prac01.dir
   POST_BUILD = :
@@ -399,11 +399,11 @@ build prac-08: C_EXECUTABLE_LINKER__prac-08_Debug CMakeFiles/prac-08.dir/chap01-
 
 build cmake_object_order_depends_target_prac02: phony || CMakeFiles/prac02.dir
 
-build CMakeFiles/prac02.dir/chap05-Stack/prac02.c.o: C_COMPILER__prac02_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap05-Stack/prac02.c || cmake_object_order_depends_target_prac02
-  DEP_FILE = CMakeFiles/prac02.dir/chap05-Stack/prac02.c.o.d
+build CMakeFiles/prac02.dir/chap06-Queue-and-Deque/prac02.c.o: C_COMPILER__prac02_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap06-Queue-and-Deque/prac02.c || cmake_object_order_depends_target_prac02
+  DEP_FILE = CMakeFiles/prac02.dir/chap06-Queue-and-Deque/prac02.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/prac02.dir
-  OBJECT_FILE_DIR = CMakeFiles/prac02.dir/chap05-Stack
+  OBJECT_FILE_DIR = CMakeFiles/prac02.dir/chap06-Queue-and-Deque
 
 
 # =============================================================================
@@ -413,7 +413,7 @@ build CMakeFiles/prac02.dir/chap05-Stack/prac02.c.o: C_COMPILER__prac02_Debug /U
 #############################################
 # Link the executable prac02
 
-build prac02: C_EXECUTABLE_LINKER__prac02_Debug CMakeFiles/prac02.dir/chap05-Stack/prac02.c.o
+build prac02: C_EXECUTABLE_LINKER__prac02_Debug CMakeFiles/prac02.dir/chap06-Queue-and-Deque/prac02.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/prac02.dir
   POST_BUILD = :
@@ -430,11 +430,11 @@ build prac02: C_EXECUTABLE_LINKER__prac02_Debug CMakeFiles/prac02.dir/chap05-Sta
 
 build cmake_object_order_depends_target_prac03: phony || CMakeFiles/prac03.dir
 
-build CMakeFiles/prac03.dir/chap05-Stack/prac03.c.o: C_COMPILER__prac03_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap05-Stack/prac03.c || cmake_object_order_depends_target_prac03
-  DEP_FILE = CMakeFiles/prac03.dir/chap05-Stack/prac03.c.o.d
+build CMakeFiles/prac03.dir/chap06-Queue-and-Deque/prac03.c.o: C_COMPILER__prac03_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap06-Queue-and-Deque/prac03.c || cmake_object_order_depends_target_prac03
+  DEP_FILE = CMakeFiles/prac03.dir/chap06-Queue-and-Deque/prac03.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/prac03.dir
-  OBJECT_FILE_DIR = CMakeFiles/prac03.dir/chap05-Stack
+  OBJECT_FILE_DIR = CMakeFiles/prac03.dir/chap06-Queue-and-Deque
 
 
 # =============================================================================
@@ -444,7 +444,7 @@ build CMakeFiles/prac03.dir/chap05-Stack/prac03.c.o: C_COMPILER__prac03_Debug /U
 #############################################
 # Link the executable prac03
 
-build prac03: C_EXECUTABLE_LINKER__prac03_Debug CMakeFiles/prac03.dir/chap05-Stack/prac03.c.o
+build prac03: C_EXECUTABLE_LINKER__prac03_Debug CMakeFiles/prac03.dir/chap06-Queue-and-Deque/prac03.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/prac03.dir
   POST_BUILD = :
@@ -461,11 +461,11 @@ build prac03: C_EXECUTABLE_LINKER__prac03_Debug CMakeFiles/prac03.dir/chap05-Sta
 
 build cmake_object_order_depends_target_prac04: phony || CMakeFiles/prac04.dir
 
-build CMakeFiles/prac04.dir/chap05-Stack/prac04.c.o: C_COMPILER__prac04_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap05-Stack/prac04.c || cmake_object_order_depends_target_prac04
-  DEP_FILE = CMakeFiles/prac04.dir/chap05-Stack/prac04.c.o.d
+build CMakeFiles/prac04.dir/chap06-Queue-and-Deque/prac04.c.o: C_COMPILER__prac04_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap06-Queue-and-Deque/prac04.c || cmake_object_order_depends_target_prac04
+  DEP_FILE = CMakeFiles/prac04.dir/chap06-Queue-and-Deque/prac04.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/prac04.dir
-  OBJECT_FILE_DIR = CMakeFiles/prac04.dir/chap05-Stack
+  OBJECT_FILE_DIR = CMakeFiles/prac04.dir/chap06-Queue-and-Deque
 
 
 # =============================================================================
@@ -475,7 +475,7 @@ build CMakeFiles/prac04.dir/chap05-Stack/prac04.c.o: C_COMPILER__prac04_Debug /U
 #############################################
 # Link the executable prac04
 
-build prac04: C_EXECUTABLE_LINKER__prac04_Debug CMakeFiles/prac04.dir/chap05-Stack/prac04.c.o
+build prac04: C_EXECUTABLE_LINKER__prac04_Debug CMakeFiles/prac04.dir/chap06-Queue-and-Deque/prac04.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/prac04.dir
   POST_BUILD = :
@@ -492,11 +492,11 @@ build prac04: C_EXECUTABLE_LINKER__prac04_Debug CMakeFiles/prac04.dir/chap05-Sta
 
 build cmake_object_order_depends_target_prac05: phony || CMakeFiles/prac05.dir
 
-build CMakeFiles/prac05.dir/chap05-Stack/prac05.c.o: C_COMPILER__prac05_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap05-Stack/prac05.c || cmake_object_order_depends_target_prac05
-  DEP_FILE = CMakeFiles/prac05.dir/chap05-Stack/prac05.c.o.d
+build CMakeFiles/prac05.dir/chap06-Queue-and-Deque/prac05.c.o: C_COMPILER__prac05_Debug /Users/seoilhyeon/Documents/가톨릭대/자료구조기초/work/chap06-Queue-and-Deque/prac05.c || cmake_object_order_depends_target_prac05
+  DEP_FILE = CMakeFiles/prac05.dir/chap06-Queue-and-Deque/prac05.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -std=gnu99
   OBJECT_DIR = CMakeFiles/prac05.dir
-  OBJECT_FILE_DIR = CMakeFiles/prac05.dir/chap05-Stack
+  OBJECT_FILE_DIR = CMakeFiles/prac05.dir/chap06-Queue-and-Deque
 
 
 # =============================================================================
@@ -506,7 +506,7 @@ build CMakeFiles/prac05.dir/chap05-Stack/prac05.c.o: C_COMPILER__prac05_Debug /U
 #############################################
 # Link the executable prac05
 
-build prac05: C_EXECUTABLE_LINKER__prac05_Debug CMakeFiles/prac05.dir/chap05-Stack/prac05.c.o
+build prac05: C_EXECUTABLE_LINKER__prac05_Debug CMakeFiles/prac05.dir/chap06-Queue-and-Deque/prac05.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
   OBJECT_DIR = CMakeFiles/prac05.dir
   POST_BUILD = :
