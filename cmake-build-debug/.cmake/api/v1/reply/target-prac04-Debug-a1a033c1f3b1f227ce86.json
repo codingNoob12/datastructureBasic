@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "prac02"
+			"path" : "prac04"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "prac02::@6890427a1f51a3e7e1df",
+	"id" : "prac04::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "prac02",
-	"nameOnDisk" : "prac02",
+	"name" : "prac04",
+	"nameOnDisk" : "prac04",
 	"paths" : 
 	{
 		"build" : ".",
@@ -94,7 +94,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "chap07-Tree/prac02.c",
+			"path" : "chap08-Graph/prac04.c",
 			"sourceGroupIndex" : 0
 		}
 	],
