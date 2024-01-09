@@ -4,3 +4,4 @@ test
 .idea
 main.c
 CMakeLists.txt
+.DS_Store
